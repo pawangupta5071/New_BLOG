@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="{%static "css/main.css" %}">
+
+    <title>iBlog - Heaven for bloggers</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="{% static "images/logo.png"%}" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="{% url 'about_us' %}">About me</a></li>
+                <li><a href="{% url 'contact_us' %}">Contact</a></li>
+                <li><a href="{%url 'create_post'%}"><h4>Add Blog</h4></a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form id="searchForm" method="GET">{{myFilter.form.headline}}
+                {% if myFilter.form is not empty %}
+                <button class="btn">Search</button>
+                {% endif %}
+            </form>
+
+        </div>
+
+    </nav>
+    
+
+    {% block content %}
+    {% endblock %}
+
+    <div class="footer">
+        <p>Copyright &copy; iBlog.com </p>
+        <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a>
+    </div>
+</body>
+
+</html>

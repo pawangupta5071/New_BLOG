@@ -1,0 +1,148 @@
+{% extends "base/main.html"%}
+{%load static %}
+{% block content %}
+
+
+
+<style type="text/css">
+   
+  
+    ul li {
+      display: inline-block;
+    }
+  
+    .pagination a {
+      font-size: 15px;
+      border: 1px solid #ddd;
+      margin: 0 4px;
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+  
+    .pagination a.active {
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+    }
+  
+    .pagination a:hover:not(.active) {
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+  
+    .row {
+      text-align: center;
+    }
+  </style>
+  
+
+
+
+<div class="max-width-1 m-auto">
+    <hr>
+</div>
+
+
+<div class="m-auto content max-width-1 my-2">
+
+    <div class="content-left">
+        <h1>The heaven for bloggers</h1>
+        <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
+            can get a good amount of reach from here!</p>
+        <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the
+            box last year either. My Halloween spirit has officially been bludgeoned to death by teenagers who no
+            longer care and a persistent October fear of the Northern California wildfires. And speaking of fear,
+            isn’t there more than enough of that going around? Maybe all of us can pretend that Halloween isn’t even
+            happening this year?</p>
+    </div>
+    <div class="content-right">
+        <img src="{% static "images/home.svg"%}" alt="iBlog">
+    </div>
+</div>
+
+<div class="max-width-1 m-auto">
+    <hr>
+</div>
+<div class="home-articles max-width-1 m-auto font2">
+    <h2>Featured Articles</h2>
+    {%for post in posts%}
+    <div class="home-article">
+        <div class="home-article-img">
+            <img src="{{post.thumbnail.url}}" alt="article">
+        </div>
+        <div class="home-article-content font1">
+            <a href="{% url "post_detail" post.slug %}">
+                <h3>{{post.headline}}</h3>
+
+                <h4>{{post.sub_headline}}</h4>
+            </a>
+
+            <div>Author: {{post.author}}</div>
+            <span>{{post.created}}</span>
+            <div><a href="{% url "update_post" post.slug %}"><button>EDIT</button></a>
+                
+                <a href="{% url "delete_post" post.slug %}"><button>DELETE</button></a>
+            </div>
+        </div>
+    </div>
+    {%endfor %}
+
+
+
+    <div class="row">
+        {% if posts.has_other_pages %}
+      
+        <ul class="pagination">
+      
+          {% if posts.has_previous %}
+          <li class="page-item"><a data-page="{{posts.previous_page_number}}" href="?page={{posts.previous_page_number}}"
+              class="page-link">&laquo</a></li>
+      
+          <li class="page-item"><a data-page="1" href="?page=1" class="page-link">First</a></li>
+          {% endif %}
+      
+          {%for i in posts.paginator.page_range %}
+          {% if posts.number == i %}
+          <li class="page-item"><a class="active page-link">{{i}}</a></li>
+          {% else %}
+          <li class="page-item"><a data-item="{{i}}" href="?page={{i}}" class="page-link">{{i}}</a></li>
+          {% endif %}
+          {% endfor %}
+      
+          {% if posts.has_next %}
+          <li class="page-item"><a data-item="{{posts.paginator.num_pages}}" href="?page={{posts.paginator.num_pages}}"
+              class="page-link">Last</a></li>
+      
+          <li class="page-item"><a data-item="{{posts.next_page_number}}" href="?page={{posts.next_page_number}}"
+              class="page-link">&raquo</a></li>
+          {% endif %}
+        </ul>
+        {% endif %}
+      </div>
+      
+
+</div>
+
+
+
+<script type="text/javascript">
+    let searchForm = document.getElementById('searchForm')
+    let pageLinks = document.getElementsByClassName('page-link')
+  
+    for (var i = 0; pageLinks.length; i++) {
+      pageLinks[i].addEventListener('click', () => setTimeout(function (e) {
+        e.preventDefault()
+        let page = this.dataset.page
+        console.log('Page:', page)
+        searchForm.innerHTML += '<input value="$(page)" name="page" hidden >'
+        searchForm.submit()
+      }))
+    }
+  </script>
+
+
+
+
+{% endblock %}

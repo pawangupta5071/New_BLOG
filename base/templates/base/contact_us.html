@@ -1,0 +1,45 @@
+{% extends "base/main.html"%}
+{%load static %}
+{% block content %}
+
+
+
+
+
+
+<div class="max-width-1 m-auto">
+    <hr>
+</div>
+<div class="contact-content font1 max-width-1 m-auto">
+    <div class="max-width-1 m-auto mx-1">
+        <h2>Feel Free to Contact Us</h2>
+        <div class="contact-form">
+            <form method="POST" action="{% url 'send_email' %}">
+              {% csrf_token %}
+                <div class="form-box">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-box">
+                    <input type="text" name="subject" id="subject" placeholder="Enter the subject">
+                </div>
+                <div class="form-box">
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email Id">
+                </div>
+                <div class="form-box">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="How may we help you?"></textarea>
+                </div>
+                <div class="form-box">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+{% endblock %}
