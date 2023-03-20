@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e5(8^38g!7ricd^y4sdlt@8=_%l_+=07!9^^l0xl%sdkvhvh5#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
-    "django_filters"
-    
+    "django_filters",
+    "cloudinary",
+
 ]
 
 
@@ -82,14 +83,14 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 # To use Neon with Django, you have to create a Project on Neon and specify the project connection settings in your settings.py in the same way as for standalone Postgres.
 
 DATABASES = {
-  'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'neondb',
-    'USER': 'pawangupta5071',
-    'PASSWORD': 'm05xfDbERraq',
-    'HOST': 'ep-sparkling-water-433759.us-east-2.aws.neon.tech',
-    'PORT': '5432',
-  }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'neondb',
+        'USER': 'pawangupta5071',
+        'PASSWORD': 'm05xfDbERraq',
+        'HOST': 'ep-sparkling-water-433759.us-east-2.aws.neon.tech',
+        'PORT': '5432',
+    }
 }
 
 # postgres://vbstmnzx:l4lXGYczU9_Zge9raPgboBUhWaSYQox3@mahmud.db.elephantsql.com/vbstmnzx
@@ -138,6 +139,16 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dnisfvlql',
+    'API_KEY': '143829381148952',
+    'API_SECRET': '6E4oAhqA1HuTuGIyuxKVD7wBhOg'
+}
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

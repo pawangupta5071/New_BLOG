@@ -54,6 +54,7 @@
     transition: all 0.3s ease-in-out;
 }
 
+
 .btn:hover {
     color: white;
     background: var(--main-bg-color);
@@ -142,7 +143,7 @@ textarea {
 
 .content::after {
     content: "";
-    background-image: url("../img/11.svg");
+
     position: absolute;
     width: 100%;
     height: inherit;
@@ -312,7 +313,7 @@ textarea {
 
 .contact-content::after {
     content: "";
-    background-image: url("../img/11.svg");
+
     position: absolute;
     top: 0;
     width: 100%;
@@ -335,7 +336,7 @@ textarea {
 }
 
 .blog-post-content {
-    /* background-color: rebeccapurple; */
+    background-color: rebeccapurple;
 }
 
 .blog-post-content h1 {
