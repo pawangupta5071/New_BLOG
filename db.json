@@ -1,0 +1,349 @@
+[{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-03-13T13:22:40.074Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "CUSTOMER RELATIONSHIP MANAGEMENT (CRM)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-03-13T13:22:55.189Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Comment reylwjto;k;fdl by pawan gupta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-03-13T13:57:05.015Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-03-13T13:57:10.755Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "CUSTOMER RELATIONSHIP MANAGEMENT (CRM)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-03-13T14:00:04.900Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critic�s Notebook:",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-03-13T14:26:15.978Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-03-13T14:26:35.213Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-03-13T14:28:38.164Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critic�s Notebook:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-03-13T15:16:23.258Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critics Notebook:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-03-13T15:17:13.329Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critic�s Notebook:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-03-13T15:25:18.650Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "11 Advantages of Django:",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-03-13T15:28:54.662Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "11 Advantages of Django:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-03-14T08:11:17.401Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-03-14T08:11:22.378Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-03-14T08:11:27.797Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critic�s Notebook:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-03-14T08:11:32.683Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "11 Advantages of Django:",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-03-14T08:11:37.753Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "TO_DO_LIST APP",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-03-18T12:01:10.717Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "TVS Ronin 225 Review:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-03-18T12:01:19.394Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Critic�s Notebook:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-03-18T12:01:26.476Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "11 Advantages of Django:",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+    }
+}, {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$swYX1TexSFpSf5JJt9ruOn$xSTpQGFVNAfsp3zhxyVLyOQi5C5eGdMPu85QDFzgZ04=",
+        "last_login": "2023-03-13T13:21:32.306Z",
+        "is_superuser": true,
+        "username": "pawan",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-03-13T13:21:07.730Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "8nd90m72wgk8xugopwalob9qmziop4vr",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8BFqX7vsNZIZhpGogKe3K-O_apAvd3nPOfYkI21ri1vMSZxIXocXpd0NIj1x3QHeotyZTq-syo9wVedAup0b5eT3cv4MCvXzrgNYR-iEH8tqZM9MIo03KDVbngGwMMrFCBgbvlWWyITijTFLessni_QHwJDgu:1pbi7I:zIQpcLYad5dfolI1u4vSq9axvp0Nj62jwVDCrxdpjLc",
+        "expire_date": "2023-03-27T13:21:32.310Z"
+    }
+}, {
+    "model": "base.post",
+    "pk": 2,
+    "fields": {
+        "author": 1,
+        "headline": "TVS Ronin 225 Review:",
+        "sub_headline": "Worthy 'Cruiser' with Substance and Panache",
+        "thumbnail": "images/tvs-ronin-7.jpg",
+        "body": "TVS Motor Company has been synonymous with some of the most iconic motorcycles that the Indian audience has ever seen in the last few years. Be it the warhorse Apache series or the classic Victor range, each has its own peculiarity and has been applauded immensely by auto pundits. But with the Ronin, TVS thought of trying something that it had never dared until now, nor the people expected it from the bikemaker. Yes, here we are talking about TVS foraying into the cruiser segment of motorcycles which had been ruled by brands like Royal Enfield, Jawa, and Bajaj for many years.\r\n\r\nTVS Ronin is the first attempt at the cruiser segment of bikes from the brand and in more than one way, it has been successful. Though many of you here will argue that the Ronin doesn�t particularly fit into the hardcore segment due to a few Scrambler-ish elements but still the effort from TVS is a valiant one. We had the bike with us for a few days and here are our findings:\r\n\r\nTVS Ronin Design\r\n\r\nTVS Ronin is not an out-and-out Scrambler; instead, the styling appears to be an amalgamation of several motorcycles. In particular, it appeared to me that the designers at TVS took a lot of inspiration from old-school retro motorcycles. The circular headlamp dominates the front fascia with the AHO function which is flanked well by the T-shaped LED DRL. The inclusion of golden-colored USD front forks is a welcome move as it compliments the headlamp design as well.\r\n\r\nTVS Ronin Features\r\n\r\nTo begin with, TVS Ronin boasts of a single-pod instrument cluster that is fully digital in nature and provides an array of information to the rider such as distance to empty gear shift indicator and side stand engine inhibitor. A seat is a single-piece unit in a brown finish which is fairly comfortable for the rider as well as the pillion with soft cushioning. The buyers also get an optional USB charger but the center of attraction remains the TVS Smart Connect Bluetooth connectivity system as it works quite efficiently with multiple features like call and message alerts, turn-by-turn navigation, and voice assistance.",
+        "created": "2023-03-13T13:57:05.009Z",
+        "active": true,
+        "featured": true,
+        "slug": "tvs-ronin-225-review"
+    }
+}, {
+    "model": "base.post",
+    "pk": 3,
+    "fields": {
+        "author": 1,
+        "headline": "Critic�s Notebook:",
+        "sub_headline": "The 95th Academy Awards Were Mercifully Low on Drama, Movingly High on Emotion",
+        "thumbnail": "images/Movie-Critics-Notebook-Graphics-30445716-1.jpg",
+        "body": "As the credits began to roll at the end of Sunday (March 12) night�s 95th Academy Awards, host Jimmy Kimmel walked to the side of the stage, where somebody had placed an industrial workplace sign reading �Number of Oscars Telecasts Without an Incident,� and he triumphantly flipped the �00� to �01.�\r\n\r\nThat pretty much sums up the night. \r\n\r\nMaybe you�re a person who loves chaos, in which case the Oscars telecast was doubtlessly a large disappointment. Maybe you�re a person who hates Everything Everywhere All at Once, in which case the Oscars telecast was doubtlessly infuriating. Maybe you hate Hollywood folks and think it�s inappropriate for the recipient of a professional honor to get emotional, in which case the Oscars telecast gave you plenty to be snide about. \r\n\r\nI�m going to complain about things in the Oscars telecast. It�s what I do, and the telecast was hardly without flaws. But those flaws were mitigated more gracefully than just about any Oscars telecast I can remember. \r\n\r\n�No incidents� is a low bar, but if you ask me to list the most memorable Oscar moments in the past decade, The Slap and The Envelope Gaffe would be the top two, along with the blunder of closing the show with best actor two years ago. A different way to put it would be, �Did the Oscars leave you with a bad taste in your mouth?� And since 2017, the answer was �Yes� three times.\r\n\r\nSunday�s telecast left me generally elated. Everything Everywhere All at Once was not my favorite film of the year, but I truly love what it represents. It�s a movie about family, a specific kind of family that has rarely been the focus of any movie, much less a best picture winner. It�s a work of bonkers audacity and the sort of film that no rational person would ever call �Oscar bait.� Imagine going back to 1983, after Gandhi won best picture and saying, �In 40 years, THIS is an Oscar movie,� showing folks Everything Everywhere All at Once and watching their heads explode. That makes me happy.\r\n\r\nSome damn fine movies were shut out on Sunday night, and as much as I might have liked to see John Williams get his standing ovation for the Fabelmans score and I might have preferred a couple of victories for The Banshees of Inisherin � best actor and original screenplay in particular � I liked the winners we got and I liked how they won.\r\n\r\nThere were several stretches in the telecast in which every single winner seemed to be in tears, starting with Pinocchio helmer Guillermo del Toro getting choked up paying tribute to his late parents. Ke Huy Quan�s win had even presenter Ariana DeBose in tears. You might say, �Surely he�s won enough awards this season that he couldn�t have been surprised,� but try being written off by your chosen profession for three decades and going from �Ha, wasn�t that Short Round?� to �Oscar winner Ke Huy Quan!� in the course of a year. Try being Jamie Lee Curtis and settling into a stage of your career in which you�re generally adored, but also have to keep talking about yogurt that makes you poop and then finding yourself accepting an award that both your iconic parents were nominated for but didn�t win and see if you don�t cry.",
+        "created": "2023-03-13T14:00:04.896Z",
+        "active": true,
+        "featured": true,
+        "slug": "critics-notebook"
+    }
+}, {
+    "model": "base.post",
+    "pk": 4,
+    "fields": {
+        "author": 1,
+        "headline": "11 Advantages of Django:",
+        "sub_headline": "Why You Should Use It",
+        "thumbnail": "images/django-features.webp",
+        "body": "1. Django has the Model View Template Architecture\r\nDjango has a Model-View-Template (MVT) architecture. The MVT (Model View Template) is a software design pattern. It is a collection of three essential components Model, View, and Template. These three layers are responsible for different things and can be used independently.\r\n2. Django is Highly Secure\r\nWhen we make web applications in Django, it makes sure that developers don�t commit any mistakes related to security. It will be pretty difficult to find security loopholes in Django, even in the user authentication system.\r\n3. Django is Powered by Python\r\nPython is one of the most top-notch programming languages due to its ease of learning, popularity, and power. It is the most popular language at the present time, and for all those Pythonistats, Django is the perfect web development framework.\r\n\r\n4. Django Provides a Default Admin Panel\r\nWhen I was doing my college mini-project for my CS degree, I developed a web application. I was using PHP at that time, and I developed the admin interface of the web app totally from scratch. Admin panels are designed to help you manage your application.\r\n\r\n5. Django has a Great Set of Libraries\r\nEvery programming language or framework comes up with its own set of libraries for solving typical tasks. A software library is a collection of programs and software packages made generally available, often loaded and stored on disk, for immediate use. It includes prewritten code, classes, methods, configuration data, and more.\r\n\r\n11 Advantages of Django: Why You Should Use It\r\nWritten by Ashwin Joyin Web Development\r\nOn this website, we�ve talked a lot about the pros and cons of the Python programming language, but how does that apply to a popular web framework like Django?\r\n\r\nDjango is a Python-based free and open-source web framework, which helps us to create complex, database-driven websites. Django is considered the best Python web framework. Pinterest, The Washington Post, Dropbox, and Spotify are some of the best Django apps.\r\n\r\nWhy use Django for your project? What are the advantages of using Django to create web applications?. I�ve done a little research on the topic and put together a list of the pros of Django.\r\n\r\n1. Django has the Model View Template Architecture\r\nDjango has a Model-View-Template (MVT) architecture. The MVT (Model View Template) is a software design pattern. It is a collection of three essential components Model, View, and Template. These three layers are responsible for different things and can be used independently.\r\n\r\nDjango Model View Template Design\r\nThe Model helps to handle databases. It is a data access layer, which contains the required fields and behaviors of the data you�re storing. There�s hardly an application without a database. The Django framework officially supports four databases, namely, PostgreSQL, MySQL, SQLite, and Oracle.\r\n\r\nA model is a Python class, and it does not know anything about other Django layers. An application programming interface (API) is the only means used to communicate between layers.\r\n\r\nModels help developers to create, read, update, and delete objects (CRUD operations) in the original database. Also, they hold business logic, custom methods, properties, and other things related to data manipulation.\r\n\r\nThe View is used to execute the business logic and interact with a model to carry data and renders a template. The view fetches data from a model. Then, it either gives each template access to specific data to be displayed, or it processes data beforehand.\r\n\r\nIt accepts HTTP requests, applies business logic provided by Python classes and methods, and provides HTTP responses to the client requests.\r\n\r\nThe Template is a presentation layer that handles the User Interface part completely. These are files with HTML code, which is used to render data. The contents of these files can be static or dynamic. A template is used only to present data since there�s no business logic in it.\r\n\r\nWhy do we need MVT? Well, for a web application, we have data, layout, and logic. Sometimes, we can create all these in a single file. But, for large web applications, it is always better to use these three components separately.\r\n\r\nThat�s why we use Model-View-Template architecture. It is called the separation of concerns in software development. The model will work with data, the View will work with logic, and the Template will work with layouts.\r\n\r\nAlso, MVT architecture makes the whole process of transmitting over the Internet simpler and faster.\r\n\r\n2. Django is Highly Secure\r\nWhen we make web applications in Django, it makes sure that developers don�t commit any mistakes related to security. It will be pretty difficult to find security loopholes in Django, even in the user authentication system.\r\n\r\nThe framework has protection against the most common security attacks like XSS and CSRF (Cross-Site Request Forgery) attacks, SQL injections, Clickjacking, etc. The user authentication system of Django is also solid, to manage usernames and passwords.\r\n\r\nAlso, Django hides your website�s source code. Django notifies of several common security mistakes better than PHP. While transmitting data, Django automatically encrypts the passwords and all the essential information with a security key.\r\n\r\n3. Django is Powered by Python\r\nPython is one of the most top-notch programming languages due to its ease of learning, popularity, and power. It is the most popular language at the present time, and for all those Pythonistats, Django is the perfect web development framework.\r\n\r\nIn the case of Django, everything is explicit, following the mentioned Zen of Python, where it is always better than implicit. The Zen of Python is a collection of some guiding principles for writing computer programs that influence the design of the Python programming language. In Django, you have to configure it first. It�s the opposite of convention over configuration.\r\n\r\n\r\nFor all the programmers who are used to code in Python, Django will be pretty easy to learn. Even though the Flask web framework is much easier than Django, it is not the best framework when it comes to large-scale web application development. Django is the best framework for more complex web apps.\r\n\r\nPython is very easy to read, and that�s the main design philosophy behind the creation of Python. If you are an admirer of that philosophy, then you will love Django. Also, it will be easy for you to integrate machine learning functionalities into your web applications because Python is the most used language in the AI field.\r\n4. Django Provides a Default Admin Panel\r\nWhen I was doing my college mini-project for my CS degree, I developed a web application. I was using PHP at that time, and I developed the admin interface of the web app totally from scratch. Admin panels are designed to help you manage your application.\r\n\r\nIt blew my mind when I realized that Django automatically comes up with an admin interface. You don�t need to write any code to create it. Django gives you everything by default and hence reduces a lot of development time.\r\n\r\n\r\nDjango allows you to modify the admin panel with third-party wrappers and add dashboards uniquely for your needs. Additionally, there is a lot of room for customization in the Django admin interface, thanks to third-party applications.\r\n\r\nCreating an admin panel by yourself is pointless and takes a lot of time. So, if you�re using Django, it is a great advantage to have a default admin panel.\r\n\r\nWhen I realized the power of Django, I stopped using PHP as my server-side language, and I switched to Django. Even though there is a small learning curve, it will be simple once you pass that phase. Django framework is for perfectionists with deadlines. If you�re a programmer like that, then Django is the best web development framework for you.\r\n\r\n5. Django has a Great Set of Libraries\r\nEvery programming language or framework comes up with its own set of libraries for solving typical tasks. A software library is a collection of programs and software packages made generally available, often loaded and stored on disk, for immediate use. It includes prewritten code, classes, methods, configuration data, and more.\r\n\r\nA software library helps to add more functionality to a program or to automate a process without manually writing a new piece of code. It reduces a lot of development time. \r\n\r\nWhen it comes to the extensive set of libraries, Python is a rich programming language. Even Django has many libraries to make things easy for you.\r\n\r\nSome of the popular libraries include the Django REST framework (responsible for building application programming interfaces), Django CMS (designed to manage website content), and Django-allauth (an integrated set of Django applications for authentication, registration, account management, and third-party (social) account authentication).\r\n\r\nThere are several other libraries available for Django developers. These libraries are indeed helpful for Python web developers.\r\n\r\n6. Django is Good for Search Engine Optimization (SEO)\r\nDjango offers several useful SEO tools. Django provides a module called the Django SEO framework, which developers can use to reduce page loading time by using cached templates and compressing CSS and JavaScript.\r\n\r\n7. Django Provides Object Relational Mapper(ORM)\r\nDjango ORM provides an elegant and powerful way to interact with the database in an Object-Oriented fashion. ORM is a library that automatically transfers data stored in databases into objects commonly used in application code.\r\n\r\n8. Django Offers Rapid Development\r\nDjango helps the developers to make an application as fast as possible. Django helps in creating web apps, both cost-effective and efficient. Thus it becomes an ideal solution for programmers with deadlines.\r\n\r\n9. Django is Highly Scalable\r\nIt is yet another benefit of using Django for building web apps. Depending on your specific product requirements, development can be scaled up or down, altering the number and complexity of Django components as necessary.\r\n\r\n10. Django has Good Documentation and Tutorials\r\nThe Django framework has a lot of good quality documentation. Also, a lot of content in the form of articles, tutorials, and video courses is freely available online for learning Django. So, there is no difficulty in finding high-quality learning materials.\r\n\r\n\r\n11. Django follows Batteries-Included Philosophy\r\nDjango follows Python�s �batteries-included� philosophy. What does that mean? It means that Django provides the resources required by developers built-in.",
+        "created": "2023-03-13T15:25:18.643Z",
+        "active": true,
+        "featured": true,
+        "slug": "11-advantages-of-django"
+    }
+}, {
+    "model": "base.post",
+    "pk": 7,
+    "fields": {
+        "author": null,
+        "headline": "TO_DO_LIST APP",
+        "sub_headline": "this is a similar app to whatsapp",
+        "thumbnail": "3.png",
+        "body": "dgcvhbjnm,/.",
+        "created": "2023-03-14T07:39:26.648Z",
+        "active": true,
+        "featured": true,
+        "slug": "to_do_list-app"
+    }
+}, {
+    "model": "base.post",
+    "pk": 8,
+    "fields": {
+        "author": null,
+        "headline": "Employee Management Project",
+        "sub_headline": "this is a Todo list app where you can add the reminder for your daily tasks",
+        "thumbnail": "images/Movie-Critics-Notebook-Graphics-30445716-1_zaZRfzs.jpg",
+        "body": "fghjklj",
+        "created": "2023-03-18T11:43:08.089Z",
+        "active": true,
+        "featured": true,
+        "slug": "employee-management-project"
+    }
+}, {
+    "model": "base.post",
+    "pk": 9,
+    "fields": {
+        "author": null,
+        "headline": "Employee Management Project",
+        "sub_headline": "This is made with Django and Bootstrap",
+        "thumbnail": "images/images_CBr0ECV.jpg",
+        "body": "xcvhjbknlml",
+        "created": "2023-03-18T14:09:32.627Z",
+        "active": true,
+        "featured": true,
+        "slug": "employee-management-project-2"
+    }
+}]

@@ -54,6 +54,7 @@
     transition: all 0.3s ease-in-out;
 }
 
+
 .btn:hover {
     color: white;
     background: var(--main-bg-color);
@@ -335,7 +336,7 @@ textarea {
 }
 
 .blog-post-content {
-    /* background-color: rebeccapurple; */
+    background-color: rebeccapurple;
 }
 
 .blog-post-content h1 {

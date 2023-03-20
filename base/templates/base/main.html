@@ -8,6 +8,55 @@
     <link rel="stylesheet"  type="text/css" href="{%static "css/main.css" %}">
 
     <title>iBlog - Heaven for bloggers</title>
+
+    <style>
+        .btn-auth {
+            background-color: #505050;
+            border-radius: 8px;
+            color: white; 
+            border: none;
+            font-size: 16px;
+            padding: 6px 20px;
+            text-align: center;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+           
+        }
+        .btn-auth:hover {
+            opacity: 1
+            
+        }
+
+        .btn-register {
+            background-color: #018749;
+            border-radius: 8px;
+            color: white; 
+            border: none;
+            font-size: 16px;
+            padding: 6px 20px;
+            text-align: center;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+           
+        }
+        .btn-register:hover {
+            opacity: 1
+            
+        }
+
+        
+
+        #auth_id{
+            text-decoration:none;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,17 +67,29 @@
             </a>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="{% url 'about_us' %}">About me</a></li>
+                <li><a href="{% url 'about_us' %}">About</a></li>
                 <li><a href="{% url 'contact_us' %}">Contact</a></li>
-                <li><a href="{%url 'create_post'%}"><h4>Add Blog</h4></a></li>
+               
+                <li><a href="{%url 'create_post'%}">Add Blog</a></li>
+                
             </ul>
         </div>
         <div class="nav-right">
+            {% if myFilter.form %}
             <form id="searchForm" method="GET">{{myFilter.form.headline}}
-                {% if myFilter.form is not empty %}
-                <button class="btn">Search</button>
-                {% endif %}
+                <button class="btn">Search</button>  
             </form>
+            {% endif %}
+            {% if request.user.is_authenticated %}
+            <span>Hello,{{request.user}}</span>
+            <button class="btn-auth"><a id="auth_id" href="{% url 'logout' %}">Logout</a></button>
+            {% else %}
+            <button class="btn-register"><a id="auth_id" href="{% url 'register' %}">Sign Up</a></button>
+            <button class="btn-auth"><a id="auth_id" href="{% url 'login' %}">Log In</a></button>
+            {% endif %}
+
+            
+            
 
         </div>
 
@@ -45,3 +106,17 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+{% comment %} {% if request.user is None %}
+            <button><a href="{% url 'login' %}">Login</a></button>
+            {% else %}
+            
+            {% endif %} {% endcomment %}
