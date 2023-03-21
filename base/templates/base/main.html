@@ -69,8 +69,9 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="{% url 'about_us' %}">About</a></li>
                 <li><a href="{% url 'contact_us' %}">Contact</a></li>
-               
+                {% if request.user.is_authenticated %}
                 <li><a href="{%url 'create_post'%}">Add Blog</a></li>
+                {% endif %}
                 
             </ul>
         </div>
