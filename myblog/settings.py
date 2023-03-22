@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-e5(8^38g!7ricd^y4sdlt@8=_%l_+=07!9^^l0xl%sdkvhvh5#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["myblogdotcom.onrender.com", '127.0.0.1']
 
 
 # Application definition
@@ -146,7 +146,7 @@ CLOUDINARY_STORAGE = {
     'API_SECRET': '6E4oAhqA1HuTuGIyuxKVD7wBhOg'
 }
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
